@@ -150,7 +150,7 @@ def search_post():
             and usr_srch_content in post['content']
         ):
             search_results.append(post)
-        return jsonify(search_results)
+    return jsonify(search_results)
 
 
 if __name__ == '__main__':
